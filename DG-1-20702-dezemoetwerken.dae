@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.56.0 r33949</authoring_tool>
+    </contributor>
+    <created>2011-05-23T16:50:11</created>
+    <modified>2011-05-23T16:50:11</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras/>
+  <library_lights/>
+  <library_images/>
+  <library_effects>
+    <effect id="plaatpositie-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.64 0.64 0.64 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="dekplaat-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.262144 0.262144 0.262144 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="tussenstrook-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.32768 0.32768 0.32768 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="banden-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.262144 0.262144 0.262144 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="plinten-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.262144 0.262144 0.262144 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+    <effect id="text-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.262144 0.262144 0.262144 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <show_double_sided>1</show_double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="plaatpositie" name="plaatpositie">
+      <instance_effect url="#plaatpositie-effect"/>
+    </material>
+    <material id="dekplaat" name="dekplaat">
+      <instance_effect url="#dekplaat-effect"/>
+    </material>
+    <material id="tussenstrook" name="tussenstrook">
+      <instance_effect url="#tussenstrook-effect"/>
+    </material>
+    <material id="banden" name="banden">
+      <instance_effect url="#banden-effect"/>
+    </material>
+    <material id="plinten" name="plinten">
+      <instance_effect url="#plinten-effect"/>
+    </material>
+    <material id="text" name="text">
+      <instance_effect url="#text-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane-mesh">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="12">1 1 0 1 -1 0 -1 -0.9999998 0 -0.9999997 1 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <polylist material="plaatpositie" count="1">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <vcount>4 </vcount>
+          <p>0 0 3 0 2 0 1 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="kopstuk-mesh-mesh-mesh">
+      <mesh>
+        <source id="kopstuk-mesh-mesh-mesh-positions">
+          <float_array id="kopstuk-mesh-mesh-mesh-positions-array" count="168">2.616859 0.7900846 -2.287154 2.616859 0.8800878 2.752846 0.2168594 0.8800878 2.752846 0.2168594 0.8800846 -2.287154 2.616859 0.8800846 -2.287154 0.2168594 0.7900877 2.752846 2.616859 0.7900877 2.752846 0.2168594 0.7900846 -2.287154 -2.603141 0.7900877 2.752846 -0.2031406 0.8800878 2.752846 -2.603141 0.7900846 -2.287154 -0.2031406 0.7900846 -2.287154 -0.2031406 0.8800846 -2.287154 -2.603141 0.8800878 2.752846 -2.603141 0.8800846 -2.287154 -0.2031406 0.7900877 2.752846 -0.2331407 0.8800878 2.752846 -0.2331407 0.9100846 -2.287154 -0.2331407 0.9100878 2.752846 0.2468593 0.9100846 -2.287154 0.2468593 0.9100878 2.752846 0.2468593 0.8800846 -2.287154 0.2468593 0.8800878 2.752846 0.2168594 0.8800846 -2.287154 0.2168594 0.8800878 2.752846 0.2168594 0.7900846 -2.287154 0.2168594 0.7900877 2.752846 -0.2031406 0.7900877 2.752846 -0.2031406 0.8800846 -2.287154 -0.2331407 0.8800846 -2.287154 -0.2031406 0.7900846 -2.287154 -0.2031406 0.8800878 2.752846 -2.993141 0.7900879 3.112845 -2.993141 0.6100879 3.112845 -2.993141 0.6100846 -2.287154 3.006859 0.6100846 -2.287154 -2.993141 0.7900846 -2.287154 3.006859 0.7900846 -2.287154 3.006859 0.6100879 3.112845 3.006859 0.7900879 3.112845 -2.993141 0.9700846 -2.287154 -2.993141 0.6100846 -2.287154 -2.993141 0.6100842 -2.887154 3.006859 0.6100842 -2.887154 -2.993141 0.9700842 -2.887154 3.006859 0.9700842 -2.887154 3.006859 0.6100846 -2.287154 3.006859 0.9700846 -2.287154 -2.918141 0.6100879 3.037846 -2.918141 0.01008772 3.037847 2.931859 0.01008415 -2.812153 2.931859 0.01008772 3.037847 -2.918141 0.01008415 -2.812153 -2.918141 0.6100842 -2.812154 2.931859 0.6100842 -2.812154 2.931859 0.6100879 3.037846</float_array>
+          <technique_common>
+            <accessor source="#kopstuk-mesh-mesh-mesh-positions-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kopstuk-mesh-mesh-mesh-normals">
+          <float_array id="kopstuk-mesh-mesh-mesh-normals-array" count="264">1 0 0 1 0 0 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 1 -6.26795e-7 0 1 -6.26795e-7 0 -1 6.14969e-7 0 -1 6.14969e-7 1 0 0 1 0 0 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 1 -6.26795e-7 0 1 -6.26795e-7 0 -1 6.14969e-7 0 -1 6.14969e-7 -1 0 0 -1 0 0 0 -1 6.26795e-7 0 -1 6.26795e-7 -1 0 0 -1 0 0 0 1 -6.38621e-7 0 1 -6.38621e-7 1 0 0 1 0 0 0 -1 6.26795e-7 0 -1 6.26795e-7 1 0 0 1 0 0 0 -1 6.14969e-7 0 -1 6.14969e-7 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 1 0 0 1 0 -1 6.18122e-7 0 -1 6.18122e-7 0 1 -6.18122e-7 0 1 -6.18122e-7 -1 0 0 -1 0 0 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 1 0 0 1 0 -1 5.96046e-7 0 -1 5.96046e-7 0 1 -6.95387e-7 0 1 -6.95387e-7 -1 0 0 -1 0 0 0 -1.58946e-6 -1 0 -1.58946e-6 -1 1 0 0 1 0 0 0 1.58946e-6 1 0 1.58946e-6 1 0 -1 6.20404e-7 0 -1 6.20404e-7 0 1 -6.31707e-7 0 1 -6.31707e-7</float_array>
+          <technique_common>
+            <accessor source="#kopstuk-mesh-mesh-mesh-normals-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kopstuk-mesh-mesh-mesh-map-0">
+          <float_array id="kopstuk-mesh-mesh-mesh-map-0-array" count="528">0.977312 0.5051269 0.9788615 1.010226 0.9698419 1.010254 0.9682923 0.5051546 0.977312 0.5051269 0.9698419 1.010254 0.7359768 0.5058647 0.7367147 0.7463882 0.7457343 0.7463605 0.7449964 0.5058371 0.7359768 0.5058647 0.7457343 0.7463605 0.9984504 0.5051269 1 2.76453e-5 0.9909803 0 0.9894307 0.5050992 0.9984504 0.5051269 0.9909803 0 0.7359768 0.5058647 0.7352388 0.7463881 0.7262192 0.7463605 0.7269571 0.5058371 0.7359768 0.5058647 0.7262192 0.7463605 0.7277687 0.5058371 0.7262192 7.37918e-4 0.9667426 0 0.9682922 0.5050992 0.7277687 0.5058371 0.9667426 0 0.4841461 0.5050992 0.4856957 0 0.7262192 7.37918e-4 0.7246696 0.5058371 0.4841461 0.5050992 0.7262192 7.37918e-4 0.9788615 0.5050993 0.9804111 0 0.9894307 2.76453e-5 0.9878811 0.5051269 0.9788615 0.5050993 0.9894307 2.76453e-5 0.7171995 0.5058371 0.7164616 0.7463605 0.7254812 0.7463882 0.7262191 0.5058647 0.7171995 0.5058371 0.7254812 0.7463882 0.9773119 0.5051269 0.9788615 2.76453e-5 0.9698418 0 0.9682922 0.5050992 0.9773119 0.5051269 0.9698418 0 0.4939037 0.5058647 0.4931658 0.7463882 0.4841461 0.7463606 0.4848841 0.5058371 0.4939037 0.5058647 0.4841461 0.7463606 0.001549661 0.5058372 0 7.3787e-4 0.2405235 0 0.2420731 0.5050992 0.001549661 0.5058372 0.2405235 0 0.2420731 0.5050992 0.2436226 0 0.4841462 7.3787e-4 0.4825965 0.5058372 0.2420731 0.5050992 0.4841462 7.3787e-4 0.5511471 0.9873153 0.5685489 0.9873687 0.5715385 0.01286458 0.5541366 0.01281142 0.5511471 0.9873153 0.5715385 0.01286458 0.5949197 0.9873333 0.589119 0.9873153 0.5921087 0.01281142 0.5979093 0.0128293 0.5949197 0.9873333 0.5921087 0.01281142 0.600899 0.9873331 0.6037099 0.01281142 0.5979093 0.0128293 0.600899 0.9873331 0.6066995 0.9873153 0.6037099 0.01281142 0.9959474 0 1 0.1958169 0.0040524 0.1958172 0 1.7624e-7 0.9959474 0 0.0040524 0.1958172 0.5745283 0.01281142 0.5803288 0.0128293 0.5773391 0.9873333 0.5715385 0.9873153 0.5745283 0.01281142 0.5773391 0.9873333 0.5861294 0.9873331 0.5803288 0.9873153 0.5833185 0.01281142 0.589119 0.01282924 0.5861294 0.9873331 0.5833185 0.01281142 0.5337452 0.01281142 0.5511471 0.01286458 0.5481573 0.9873687 0.5307555 0.9873155 0.5337452 0.01281142 0.5481573 0.9873687 0.5277658 0.9875646 0.4465571 0.9873153 0.4495468 0.01281142 0.5307555 0.01306051 0.5277658 0.9875646 0.4495468 0.01281142 0.612767 0.01862967 0.6125179 0.09983861 0.6069842 0.01281142 0.6127848 0.01282924 0.612767 0.01862967 0.6069842 0.01281142 0.6066995 0.1056213 0.6069842 0.01281142 0.6125179 0.09983861 0.6125001 0.1056392 0.6066995 0.1056213 0.6125179 0.09983861 0.6299198 0.0998919 0.6125179 0.09983861 0.612767 0.01862967 0.6301689 0.01868325 0.6299198 0.0998919 0.612767 0.01862967 0.6241014 0.1114576 0.6243506 0.1926662 0.6298842 0.1056391 0.6240836 0.105657 0.6241014 0.1114576 0.6298842 0.1056391 0.6301689 0.198449 0.6298842 0.1056391 0.6243506 0.1926662 0.6243683 0.1984668 0.6301689 0.198449 0.6243506 0.1926662 0.6069486 0.1927196 0.6243506 0.1926662 0.6241014 0.1114576 0.6066995 0.1115109 0.6069486 0.1927196 0.6241014 0.1114576 0.8837869 0.5084296 0.8975979 0.9648029 0.8989978 0.5084763 0.8837869 0.5084296 0.8823869 0.9647562 0.8975979 0.9648029 0.4746485 0.5084763 0.473093 1.015506 0.4578822 1.015459 0.4594377 0.5084296 0.4746485 0.5084763 0.4578822 1.015459 0.4898594 0.5084296 0.4912593 0.9647562 0.4760485 0.9648028 0.4746485 0.5084763 0.4898594 0.5084296 0.4760485 0.9648028 0.8989978 0.5084763 0.9005533 1.015506 0.9157642 1.015459 0.9142087 0.5084296 0.8989978 0.5084763 0.9157642 1.015459 0.4563266 0.5084296 0 0.5070297 0.001555502 0 0.4578821 0.001399934 0.4563266 0.5084296 0.001555502 0 0.4578822 0.001399934 0.9142088 0 0.9157643 0.5070297 0.4594376 0.5084296 0.4578822 0.001399934 0.9157643 0.5070297 0.5218367 0.5591327 0.4912594 0.5085229 0.4914149 0.559226 0.5218367 0.5591327 0.5216811 0.5084296 0.4912594 0.5085229 0.9984445 0 1 0.5070296 0.9695782 0.5071229 0.9680227 9.33642e-5 0.9984445 0 0.9695782 0.5071229 0.4273049 0.5591326 0.4274604 0.5084296 0.4578822 0.5085229 0.4577267 0.5592259 0.4273049 0.5591326 0.4578822 0.5085229 0.9680227 0.5072163 0.9695782 1.014246 1 1.014153 0.9984445 0.5071229 0.9680227 0.5072163 1 1.014153 0.9664672 0.5071852 0.9157642 0.5070296 0.9173197 0 0.9680227 1.5554e-4 0.9664672 0.5071852 0.9173197 0 0.9964029 4.98444e-7 1 0.1959972 0.00359714 0.1959968 0 0 0.9964029 4.98444e-7 0.00359714 0.1959968 0.003741562 0 0.9962583 0.1306129 0 0.1306127 0.003741562 0 1 0 0.9962583 0.1306129 0.6037797 0.5000001 0.605309 0.9984709 0.5541838 0.9986277 0.5526545 0.5001569 0.6037797 0.5000001 0.5541838 0.9986277 0.003741562 0 1 0 0.9962583 0.1306127 0 0.1306127 0.003741562 0 0.9962583 0.1306127 0.003741562 0 1 0 0.9962583 0.1306127 0 0.1306127 0.003741562 0 0.9962583 0.1306127 0.4984709 0.5000001 0 0.4984708 0.001529157 0 0.5000001 0.001529157 0.4984709 0.5000001 0.001529157 0 0.5000001 0.001529157 0.9984709 0 1 0.4984708 0.5015292 0.5000001 0.5000001 0.001529157 1 0.4984708</float_array>
+          <technique_common>
+            <accessor source="#kopstuk-mesh-mesh-mesh-map-0-array" count="264" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kopstuk-mesh-mesh-mesh-vertices">
+          <input semantic="POSITION" source="#kopstuk-mesh-mesh-mesh-positions"/>
+        </vertices>
+        <polylist material="dekplaat" count="24">
+          <input semantic="VERTEX" source="#kopstuk-mesh-mesh-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#kopstuk-mesh-mesh-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#kopstuk-mesh-mesh-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>6 0 0 0 0 1 4 0 2 1 1 3 6 1 4 4 1 5 5 2 6 6 2 7 1 2 8 2 3 9 5 3 10 1 3 11 7 4 12 5 4 13 2 4 14 3 5 15 7 5 16 2 5 17 0 6 18 7 6 19 3 6 20 4 7 21 0 7 22 3 7 23 3 8 24 2 8 25 1 8 26 4 9 27 3 9 28 1 9 29 0 10 30 6 10 31 5 10 32 7 11 33 0 11 34 5 11 35 15 12 36 11 12 37 12 12 38 9 13 39 15 13 40 12 13 41 8 14 42 15 14 43 9 14 44 13 15 45 8 15 46 9 15 47 10 16 48 8 16 49 13 16 50 14 17 51 10 17 52 13 17 53 11 18 54 10 18 55 14 18 56 12 19 57 11 19 58 14 19 59 14 20 60 13 20 61 9 20 62 12 21 63 14 21 64 9 21 65 11 22 66 15 22 67 8 22 68 10 23 69 11 23 70 8 23 71</p>
+        </polylist>
+        <polylist material="tussenstrook" count="28">
+          <input semantic="VERTEX" source="#kopstuk-mesh-mesh-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#kopstuk-mesh-mesh-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#kopstuk-mesh-mesh-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>28 24 72 30 24 73 27 24 74 31 25 75 28 25 76 27 25 77 29 26 78 28 26 79 31 26 80 16 27 81 29 27 82 31 27 83 16 28 84 17 28 85 29 28 86 16 29 87 18 29 88 17 29 89 19 30 90 17 30 91 18 30 92 20 31 93 19 31 94 18 31 95 21 32 96 19 32 97 20 32 98 22 33 99 21 33 100 20 33 101 23 34 102 21 34 103 22 34 104 24 35 105 23 35 106 22 35 107 25 36 108 23 36 109 24 36 110 26 37 111 25 37 112 24 37 113 30 38 114 25 38 115 26 38 116 27 39 117 30 39 118 26 39 119 23 40 120 28 40 121 19 40 122 21 41 123 23 41 124 19 41 125 17 42 126 19 42 127 28 42 128 29 43 129 17 43 130 28 43 131 30 44 132 28 44 133 23 44 134 25 45 135 30 45 136 23 45 137 31 46 138 24 46 139 18 46 140 16 47 141 31 47 142 18 47 143 20 48 144 18 48 145 24 48 146 22 49 147 20 49 148 24 49 149 26 50 150 24 50 151 31 50 152 27 51 153 26 51 154 31 51 155</p>
+        </polylist>
+        <polylist material="banden" count="24">
+          <input semantic="VERTEX" source="#kopstuk-mesh-mesh-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#kopstuk-mesh-mesh-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#kopstuk-mesh-mesh-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>32 52 156 34 52 157 33 52 158 32 53 159 36 53 160 34 53 161 35 54 162 34 54 163 36 54 164 37 55 165 35 55 166 36 55 167 38 56 168 35 56 169 37 56 170 39 57 171 38 57 172 37 57 173 33 58 174 38 58 175 39 58 176 32 59 177 33 59 178 39 59 179 33 60 180 34 60 181 35 60 182 38 61 183 33 61 184 35 61 185 39 62 186 37 62 187 36 62 188 32 63 189 39 63 190 36 63 191 40 64 192 42 64 193 41 64 194 40 65 195 44 65 196 42 65 197 43 66 198 42 66 199 44 66 200 45 67 201 43 67 202 44 67 203 46 68 204 43 68 205 45 68 206 47 69 207 46 69 208 45 69 209 41 70 210 46 70 211 47 70 212 40 71 213 41 71 214 47 71 215 41 72 216 42 72 217 43 72 218 46 73 219 41 73 220 43 73 221 47 74 222 45 74 223 44 74 224 40 75 225 47 75 226 44 75 227</p>
+        </polylist>
+        <polylist material="plinten" count="12">
+          <input semantic="VERTEX" source="#kopstuk-mesh-mesh-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#kopstuk-mesh-mesh-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#kopstuk-mesh-mesh-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>48 76 228 52 76 229 49 76 230 48 77 231 53 77 232 52 77 233 50 78 234 52 78 235 53 78 236 54 79 237 50 79 238 53 79 239 51 80 240 50 80 241 54 80 242 55 81 243 51 81 244 54 81 245 49 82 246 51 82 247 55 82 248 48 83 249 49 83 250 55 83 251 49 84 252 52 84 253 50 84 254 51 85 255 49 85 256 50 85 257 55 86 258 54 86 259 53 86 260 48 87 261 55 87 262 53 87 263</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Plane-mesh-mesh-mesh--mesh">
+      <mesh>
+        <source id="Plane-mesh-mesh-mesh--mesh-positions">
+          <float_array id="Plane-mesh-mesh-mesh--mesh-positions-array" count="12">1 1 0 1 -1 0 -1 -0.9999998 0 -0.9999997 1 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-mesh-mesh--mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-mesh-mesh--mesh-normals">
+          <float_array id="Plane-mesh-mesh-mesh--mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-mesh-mesh--mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-mesh-mesh--mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-mesh-mesh--mesh-positions"/>
+        </vertices>
+        <polylist material="text" count="1">
+          <input semantic="VERTEX" source="#Plane-mesh-mesh-mesh--mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-mesh-mesh--mesh-normals" offset="1"/>
+          <vcount>4 </vcount>
+          <p>0 0 3 0 2 0 1 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations/>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="plaatpositie" type="NODE">
+        <translate sid="location">4.69225e-5 2.770033 0.9704593</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">0.04949981 0.04949981 0.04949981</scale>
+        <instance_geometry url="#Plane-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="plaatpositie" target="#plaatpositie"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="kopstuk" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90.00001</rotate>
+        <scale sid="scale">0.9999999 1 1</scale>
+        <instance_geometry url="#kopstuk-mesh-mesh-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="dekplaat" target="#dekplaat">
+                <bind_vertex_input semantic="UVTex" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="tussenstrook" target="#tussenstrook">
+                <bind_vertex_input semantic="UVTex" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="banden" target="#banden">
+                <bind_vertex_input semantic="UVTex" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="plinten" target="#plinten">
+                <bind_vertex_input semantic="UVTex" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="text" type="NODE">
+        <translate sid="location">0 2.3 2.2</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 90</rotate>
+        <scale sid="scale">0.006785267 0.006785267 0.006785267</scale>
+        <instance_geometry url="#Plane-mesh-mesh-mesh--mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="text" target="#text"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
